@@ -13,7 +13,7 @@ export function Header() {
                 
             </nav> <br />
             <div className="flex flex-col items-center justify-center">
-                        <h1 className="text-white text-6xl font-bold font-apple">Erick Santos</h1>
+                        <h1 className="text-field text-6xl font-bold font-apple">Erick Santos</h1>
             </div>
         </div>
     )
