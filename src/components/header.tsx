@@ -1,4 +1,4 @@
-import {Logo} from '../assets/logo'
+import Logo from '../assets/tools-and-utensils.png'
 
 export function Header() {
     return (
@@ -6,7 +6,7 @@ export function Header() {
             <nav className="bg-background flex flex-row items-center justify-center">
                 <div className='flex flex-row items-start justify-start'>
                     <div className='flex flex-col items-start justify-start '>
-                        <Logo/>
+                        <img src={Logo} alt="" className='w-20'/>
                     </div>
                 </div>    
                     
