@@ -8,7 +8,7 @@ interface FieldProps{
 
 export function Field(props: FieldProps) {
     return (
-        <fieldset className="flex flex-row items-center justify-center border-2 border-field rounded-2xl w-5/6 gap-x-3">
+        <fieldset className="flex flex-row items-center justify-center border-2 border-field rounded-2xl w-5/6 gap-x-3 bg-[#171717]">
             <img src={props.img} alt="" className="w-96 h-60 rounded-2xl"/>
             <div className="flex flex-col items-center justify-center">
                 <h1 className="text-white text-4xl font-apple">{props.title}</h1>
