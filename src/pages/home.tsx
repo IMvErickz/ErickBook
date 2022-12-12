@@ -36,9 +36,9 @@ export function Home() {
                     e o cliente. Pensado especialmente para prestadores na área da beleza'
                 />
                 
-                <footer>
-                    <h1 className='text-white text-4xl font-apple'>Contato</h1>
-                    <div className='flex flex-col items-center justify-center gap-y-3'> <br />
+                <footer className='flex flex-col items-center justify-center'>
+                    <h1 className='text-white text-4xl font-apple'>Contato</h1> <br />
+                    <div className='flex flex-row items-center justify-center gap-x-6'> <br />
                         <Footer
                             srcImg={GitHub}
                             link='https://github.com/IMvErickz'
