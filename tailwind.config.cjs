@@ -12,7 +12,7 @@ module.exports = {
       },
 
       fontFamily: {
-        apple: 'Apple Chancery, cursive'
+        apple: 'Helvetica'
       }
     },
   },
