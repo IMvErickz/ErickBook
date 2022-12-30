@@ -6,13 +6,27 @@ import IBeauty from '../assets/IBeatuty.jpg'
 import { Footer } from '../components/footer'
 import GitHub from '../assets/github.png'
 import Linkedin from '../assets/linkedin.png'
+import { Type } from '../assets/icons/typescript'
+import { JavaScript } from '../assets/icons/javascript'
+import { ReactLogo } from '../assets/icons/react'
+import { Node } from '../assets/icons/node'
+import { Tailwind } from '../assets/icons/tailwind'
 
 export function Home() {
     return (
         <div className="bg-background gap-y-24">
             <Header /> <br /> <br />
+
+            <div className='w-full flex flex-row itens-center justify-center p-8 gap-x-8'>
+                <Type />
+                <JavaScript />
+                <a href="https://pt-br.reactjs.org/"><ReactLogo /></a>
+                <a href="https://nodejs.org/en/about/"><Node /></a>
+                <a href="https://tailwindcss.com/"><Tailwind/></a>
+            </div>
             
             <div className='flex flex-col items-center justify-center gap-y-10'>
+                <h1 className='text-white text-6xl font-apple'>Projetos</h1>
                 <Field
                     img={Note}
                     title='NoteSchool'
